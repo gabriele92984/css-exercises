@@ -1,18 +1,11 @@
 .alter-text,
 .cooler-text {
-    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.alter-text {
     font-size: 20px;
+    background-color: rgb(234, 163, 163)   
 }
 
-.alter-background {
-    background-color: rgb(234, 163, 163);
-}
-
-.cooler-text {
+.cooler-text.alter-text {
     font-size: 24px;
 }
 
@@ -23,7 +16,7 @@
 }
 
 #number4 {
-    background-color: hsl(120, 53%, 62%);
+    background-color: hsl(120, 60%, 78%);
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: 700;
