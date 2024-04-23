@@ -1,6 +1,10 @@
-.alter-text {
+.alter-text,
+.cooler-text {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.alter-text {
     font-size: 20px;
 }
 
@@ -9,8 +13,6 @@
 }
 
 .cooler-text {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
 }
 
