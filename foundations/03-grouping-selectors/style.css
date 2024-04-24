@@ -1,0 +1,15 @@
+.c1 {
+    color: white;
+    background-color: black;
+}
+
+.c2 {
+    background-color: yellow; 
+}
+
+.c1,
+.c2 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
