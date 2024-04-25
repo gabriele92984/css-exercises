@@ -5,15 +5,12 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
+  font-size: 22px;
   font-weight: 800;
 }
 
-.para.small-para {
+p.small-para {
   font-size: 14px;
-}
-
-.para {
-  font-size: 22px;
 }
 
 #confirm-button {
