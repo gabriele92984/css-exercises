@@ -31,10 +31,6 @@ input {
 
 /* MY SOLUTION */
 
-/* * { 
-  outline: 2px solid red;
-} */
-
 body {
   display: flex;
   flex-direction: column;
