@@ -26,6 +26,10 @@ input {
 }
 
 /* SOLUTION */
+/*
+* {
+  outline: 2px solid red;
+}*/
 
 body {
   display: flex;
