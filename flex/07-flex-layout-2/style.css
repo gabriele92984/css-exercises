@@ -29,10 +29,6 @@ body {
 }
 
 /* MY SOLUTION */
-* {
-  outline: 2px solid red;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -42,7 +38,12 @@ body {
   align-content: center;
   font-size: 32px;
   font-weight: 900;
-  padding-left: 16px;
+  padding: 0 16px;
+}
+
+.body {
+  display: flex;
+  flex: 1;
 }
 
 .footer {
@@ -54,4 +55,26 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 48px;
+  width: 300px;
 }
