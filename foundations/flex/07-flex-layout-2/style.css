@@ -27,3 +27,62 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  align-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  gap: 32px;
+  margin: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+
+li {
+  margin-top: 16px;
+  list-style: none;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding-left: 16px;
+}
+
+.header {
+  font-size: xx-large;
+  font-weight: 900;
+  align-content: center;
+  padding-left: 16px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+}

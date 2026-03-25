@@ -16,6 +16,9 @@ body {
 }
 
 .modal {
+  display: flex;  /* Set display: flex */
+  gap: 16px;      /* Set gap: 16px */
+  padding: 16px;  /* Set padding: 16px */
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -31,6 +34,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;  /* Set flex-shrink: 0 */
   align-items: center;
   justify-content: center;
 }
@@ -54,6 +58,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  flex: 0;
 }
 
 button.continue {
@@ -66,4 +71,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* My CSS */
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.close-button {
+  padding: 8px;
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
